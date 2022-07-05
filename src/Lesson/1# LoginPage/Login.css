@@ -1,0 +1,50 @@
+#loginPage {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #23272e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-loginPage {
+  max-width: 390px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-loginPage > :first-child {
+  font-size: 46px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#form-loginPage > input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 0 4%;
+  font-size: 19px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+
+#form-loginPage > :last-child {
+  background-color: #ffffff;
+  color: #23272e;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
