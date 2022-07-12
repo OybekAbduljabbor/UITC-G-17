@@ -1,0 +1,38 @@
+#contener-students {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+#contener-students > :nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#list-students {
+  width: 750px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  background-color: aliceblue;
+  padding: 0 2%;
+}
+
+#list-students > :nth-child(1) {
+  width: 10%;
+}
+#list-students > :nth-child(2) {
+  width: 50%;
+}
+#list-students > :nth-child(3) {
+  width: 30%;
+}
+#list-students > :nth-child(4) {
+  width: 10%;
+}
