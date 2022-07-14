@@ -1,0 +1,28 @@
+#count {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#count > button {
+  width: 140px;
+  height: 50px;
+  background: darkblue;
+  color: #ffffff;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+#count > span {
+  width: 140px;
+  height: 50px;
+  background: #ffffff;
+  color: darkblue;
+  font-size: 35px;
+  border: 1px solid darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

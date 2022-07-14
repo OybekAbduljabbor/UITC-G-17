@@ -12,6 +12,10 @@ body {
   height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #root {
   max-width: 1440px;
   width: 100%;
