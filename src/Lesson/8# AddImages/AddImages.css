@@ -1,0 +1,69 @@
+#contener-add-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#contener-add-img > figure {
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  overflow: hidden;
+  background-color: aliceblue;
+  position: relative;
+}
+
+#contener-add-img > figure > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 23px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contener-add-img > figure > button:hover {
+  transform: rotateZ(15deg);
+}
+
+#contener-add-img > figure > img {
+  width: 100%;
+}
+
+#contener-add-img > label {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1%;
+}
+
+#contener-add-img > label > input {
+  display: none;
+}
+#contener-add-img > label > span {
+  font-size: 55px;
+  color: #1976d2;
+}
