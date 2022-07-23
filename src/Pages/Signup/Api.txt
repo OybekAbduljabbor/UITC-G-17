@@ -1,0 +1,21 @@
+ const MyData = {
+    surname: surname.value,
+    name: ism.value,
+    tel: tel.value,
+    grup: grup.value,
+    data: new Date().toLocaleDateString(),
+    time: new Date().toLocaleTimeString(),
+  };
+
+
+const formData = new FormData();
+formData.append("img", img.files[0]);
+formData.append("data", JSON.stringify(MyData));
+
+    axios("https://uitc.my-api.uz/students", {
+      method: "POST",
+      data: formData,
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    })
